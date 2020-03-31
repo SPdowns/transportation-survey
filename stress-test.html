@@ -15,32 +15,48 @@
         <h1>A Stress Test</h1>
       </div>
       <div>
-        <form id = "stress">
+        <form id = "stress-test">
           <!-- warning signs -->
           <p>Have you had any of these warning signs?</p>
-          <input type="checkbox" name="signs" value="1">Headaches<br>
-          <input type="checkbox" name="signs" value="2">Chronic Pain<br>          
-          <input type="checkbox" name="signs" value="3">Changes in Labido<br>
-          <input type="checkbox" name="signs" value="4">Frequent Sickness<br>
-          <input type="checkbox" name="signs" value="5">Digestive Issues<br>
-          <input type="checkbox" name="signs" value="6">None of the Above<br>
+          <input type="checkbox" class ="warning" name="option" value="1">Headaches<br>
+          <input type="checkbox" class ="warning" name="option" value="2">Chronic Pain<br>          
+          <input type="checkbox" class ="warning" name="option" value="3">Changes in Labido<br>
+          <input type="checkbox" class ="warning" name="option" value="4">Frequent Sickness<br>
+          <input type="checkbox" class ="warning" name="option" value="5">Digestive Issues<br>
+          <input type="checkbox" class ="warning" name="option" value="6">None of the Above<br>
           <!-- symptoms -->
           <p>Have you had any of these symptoms?</p>
-          <input type="checkbox" name="symptoms" value="1">Depression<br>
-          <input type="checkbox" name="symptoms" value="2">Anger<br>
-          <input type="checkbox" name="symptoms" value="3">Anxiety<br>
-          <input type="checkbox" name="symptoms" value="4">Fatigue<br>
-          <input type="checkbox" name="symptoms" value="5">None of the Above<br>
+          <input type="checkbox" class="symptoms" name="option" value="1">Depression<br>
+          <input type="checkbox" class="symptoms" name="option" value="2">Anger<br>
+          <input type="checkbox" class="symptoms" name="option" value="3">Anxiety<br>
+          <input type="checkbox" class="symptoms" name="option" value="4">Fatigue<br>
+          <input type="checkbox" class="symptoms" name="option" value="5">None of the Above<br>
           <!-- how do you cope? -->
           <p>What are some ways you cope with stress?</p>
-          <input type="checkbox" name="cope" value="1">Meditation<br>
-          <input type="checkbox" name="cope" value="2">Time Management<br>
-          <input type="checkbox" name="cope" value="3">Hobbies<br>
-          <input type="checkbox" name="cope" value="4">Exercise<br>
-          <input type="checkbox" name="cope" value="5">Petting a Cat<br>
-          <input type="checkbox" name="cope" value="6">None of the Above<br>
+          <input type="checkbox" class="stress" name="option" value="1">Meditation<br>
+          <input type="checkbox" class="stress" name="option" value="2">Time Management<br>
+          <input type="checkbox" class="stress" name="option" value="3">Hobbies<br>
+          <input type="checkbox" class="stress" name="option" value="4">Exercise<br>
+          <input type="checkbox" class="stress" name="option" value="5">Petting a Cat<br>
+          <input type="checkbox" class="stress" name="option" value="6">None of the Above<br>
         </form>
       </div>
+      <button type="submit">Submit Survey</button>
+    </form>
+    <span id="stress">
+      <p><b>You submited the following respones:</b></p>
+      <ul></ul>
+    </span>
+    <span id="low-stress">
+      Low Stress
+    </span>   
+    <span id="med-stress">
+      Low Stress
+    </span>   
+    <span id="high-stress">
+      Low Stress
+    </span>   
+     
     </div>
   </body>
 </html>
